@@ -1,17 +1,6 @@
-const inquirer = require('inquirer');
-const pg = require('pg');
+const promptMainMenu = require('./lib/inquirePrompt');
 
-inquirer
-  .prompt([
-    /* Pass your questions in here */
-  ])
-  .then((answers) => {
-    // Use user feedback for... whatever!!
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
-    }
-  });
+console.log("You have initialized a Crew Roster Query. ");
+console.log("Please make a selection from the following choices:");
+
+promptMainMenu();
