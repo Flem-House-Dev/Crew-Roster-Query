@@ -12,11 +12,11 @@ INSERT INTO role (title, salary, department) VALUES
 ('Chief Engineer', 65000, 2),
 ('Chief Operations Officer', 55000, 4),
 ('Chief Medical Officer', 70000, 5),
-("Ship's Councelor", 55000, 5)
+('Ship''s Councelor', 55000, 5);
 
-INSERT INTO employee (last_name, first_name, rank, role_id, manager_id, ) VALUES
-('Pcard', 'Jean-Luc', 'Cpt' 1),
-('Riker', 'William T.', 'Cdr' 2, 1),
+INSERT INTO employee (last_name, first_name, rank, role_id, manager_id) VALUES
+('Pcard', 'Jean-Luc', 'Cpt', 1, null),
+('Riker', 'William T.', 'Cdr', 2, 1),
 ('Data', 'n/a', 'LtCdr', 5, 2),
 ('LaForge', 'Geordi', 'LtCdr', 4, 2),
 ('Crusher', 'Beverly', 'Cdr', 6, 1),
