@@ -15,7 +15,7 @@ INSERT INTO role (title, salary, department) VALUES
 ('Ship''s Councelor', 55000, 5);
 
 INSERT INTO employee (last_name, first_name, rank, role_id, manager_id) VALUES
-('Pcard', 'Jean-Luc', 'Cpt', 1, null),
+('Picard', 'Jean-Luc', 'Cpt', 1, null),
 ('Riker', 'William T.', 'Cdr', 2, 1),
 ('Data', 'n/a', 'LtCdr', 5, 2),
 ('LaForge', 'Geordi', 'LtCdr', 4, 2),
