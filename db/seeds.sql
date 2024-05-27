@@ -19,7 +19,7 @@ INSERT INTO employee (last_name, first_name, rank, role_id, manager_id) VALUES
 ('Riker', 'William T.', 'Cdr', 2, 1),
 ('Data', 'n/a', 'LtCdr', 5, 2),
 ('LaForge', 'Geordi', 'LtCdr', 4, 2),
-('Crusher', 'Beverly', 'Cdr', 6, 1),
-('Troi', 'Deanna', 'LtCdr', 7, 1),
-('Yar', 'Tosha', 'Lt', 7, 1),
+('Crusher', 'Beverly', 'Dr', 6, 1),
+('Troi', 'Deanna', 'Counselor', 7, 1),
+('Yar', 'Tosha', 'Lt', 7, 2),
 ('Worf', 'n/a', 'Lt', 3, 2);
