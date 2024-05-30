@@ -51,4 +51,4 @@
   ## License
   This software uses the MIT License.
   ## Questions
-  To see more projects or to contribute, please visit my GitHub profile at: [JFleming963](https://github.com/Flem-House-Dev).
+  To see more projects or to contribute, please visit my GitHub profile at: [Flem-House-Dev](https://github.com/Flem-House-Dev).
